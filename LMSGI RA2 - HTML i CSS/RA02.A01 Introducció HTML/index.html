@@ -27,12 +27,17 @@
       <p>Milions de títols, un sol cercador.</p>
 
       <div>
-        <input type="text" placeholder="Cerca una pel·lícula, per exemple «Dune» ...">
-        <button type="button">Cercar</button>
-      </div>
-    </section>
-
-    <section>
+      <form method="get" action="https://www.themoviedb.org/search">
+    <input
+      type="search"
+      name="query"
+      placeholder="Busca una pel·lícula..."
+      required
+                    >
+    <button type="submit">Buscar</button>
+    </form>
+            </div>
+        </section>
       <h2>Resultats</h2>
 
       <article>

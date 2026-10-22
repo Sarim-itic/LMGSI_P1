@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacte - The Movie Database</title>
+    <meta
+        name="description"
+        content="Pàgina de contacte de The Movie Database. Envia'ns els teus dubtes i suggeriments."
+    >
+
+    <link rel="icon" href="otaku.png" type="image/png">
 </head>
+
 <body>
-    
+
+    <header>
+        <a href="index.html">
+            <img src="logo.png" height="25" alt="Logotip TMDB">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Buscador</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>CONTACTA AMB NOSALTRES</h1>
+            <p>Tens algun dubte o suggeriment? Escriu-nos.</p>
+        </section>
+
+        <section>
+
+            <article>
+                <h2>MUHAMMAD SARIM AHMAD</h2>
+                <p>Alumne/a - Desenvolupament web</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </article>
+
+            <section>
+                <h2>Envia'ns un missatge</h2>
+
+                <form method="post" action="#">
+
+                    <label for="nom">Nom i cognoms</label>
+                    <input
+                        type="text"
+                        id="nom"
+                        name="nom"
+                        placeholder="El teu nom complet"
+                        required
+                    >
+
+                    <label for="email">Correu electrònic</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="nom@example.cat"
+                        required
+                    >
+
+                    <label for="assumpte">Assumpte</label>
+                    <input
+                        type="text"
+                        id="assumpte"
+                        name="assumpte"
+                        placeholder="Sobre què ens vols escriure?"
+                        required
+                    >
+
+                    <label for="missatge">Missatge</label>
+                    <textarea
+                        id="missatge"
+                        name="missatge"
+                        placeholder="Escriu aquí el teu missatge..."
+                        required
+                    ></textarea>
+
+                    <button type="submit">Enviar</button>
+
+                </form>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>2026 The Movie Database - Maqueta de disseny</p>
+    </footer>
+
 </body>
+
 </html>
